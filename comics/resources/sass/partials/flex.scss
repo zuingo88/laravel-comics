@@ -1,5 +1,4 @@
 /* regole flex */
-
 .flex {
   display: flex;
 }
@@ -34,7 +33,7 @@
 }
 
 .just_end {
-  justify-content: flex-end;
+    justify-content: flex-end;
 }
 
 .space_bet {
@@ -48,35 +47,3 @@
 .align_end {
   align-items: flex-end;
 }
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Oswald", sans-serif;
-}
-
-.container {
-  width: 80%;
-  max-width: 1000px;
-  margin: auto;
-}
-
-ul li {
-  list-style: none;
-}
-
-a {
-  text-transform: uppercase;
-  text-decoration: none;
-  color: inherit;
-}
-
-.relative {
-  position: relative;
-}
-
-.absolute {
-  position: absolute;
-}
-

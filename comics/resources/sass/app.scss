@@ -1,1 +1,37 @@
-//
+@import "partials/variables.scss";
+@import "partials/flex.scss";
+@import "partials/header.scss";
+@import "partials/main.scss";
+@import "partials/footer.scss";
+
+//common rules
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Oswald", sans-serif;
+}
+
+.container {
+    width: 80%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+ul li {
+  list-style: none;
+}
+
+a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: inherit;
+}
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
