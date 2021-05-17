@@ -49,6 +49,94 @@
   align-items: flex-end;
 }
 
+header .blue_stripe {
+  height: 25px;
+  width: 100%;
+  color: white;
+  background-color: #0c7cec;
+}
+
+header .blue_stripe .container {
+  height: 25px;
+  text-transform: uppercase;
+}
+
+header .blue_stripe .container span {
+  margin-left: 50px;
+  font-size: 10px;
+}
+
+header nav {
+  width: 100%;
+}
+
+header nav .container {
+  padding-top: 3px;
+}
+
+header nav .container .logo {
+  height: 70px;
+  width: 70px;
+}
+
+header nav .container .logo img {
+  height: 100%;
+  width: 100%;
+}
+
+header nav .container ul li {
+  margin: 0 10px;
+  padding: 35px 0;
+  font-size: 13px;
+  text-transform: uppercase;
+  border-bottom: solid 3px white;
+}
+
+header nav .container ul li:hover {
+  color: #0c7cec;
+  border-bottom: solid 3px #0c7cec;
+}
+
+header nav .container .search {
+  border-bottom: solid 3px #0c7cec;
+}
+
+header nav .container .search input {
+  width: 100px;
+  padding-left: 40px;
+  border: none;
+}
+
+header nav .container .search input:focus {
+  outline: none;
+}
+
+main .jumbotron {
+  height: 300px;
+  width: 100%;
+  overflow: hidden;
+}
+
+main .jumbotron img {
+  height: 700px;
+  width: 100%;
+}
+
+main #cards {
+  background-color: black;
+}
+
+main #cards h2 {
+  display: inline;
+  top: 0;
+  left: 0;
+  transform: translate(-10px, -50%);
+  padding: 10px 25px;
+  text-transform: uppercase;
+  color: white;
+  background-color: #0c7cec;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -67,7 +155,6 @@ ul li {
 }
 
 a {
-  text-transform: uppercase;
   text-decoration: none;
   color: inherit;
 }

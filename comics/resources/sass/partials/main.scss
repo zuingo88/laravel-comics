@@ -1,0 +1,27 @@
+main {
+    .jumbotron {
+        height: 300px;
+        width: 100%;
+        overflow: hidden;
+
+        img {
+            height: 700px;
+            width: 100%;
+        }
+    }
+
+    #cards {
+        background-color: black;
+
+        h2 {
+            display: inline;
+            top: 0;
+            left: 0;
+            transform: translate(-10px, -50%);
+            padding: 10px 25px;
+            text-transform: uppercase;
+            color: white;
+            background-color: $dcColor;
+        }
+    }
+}
