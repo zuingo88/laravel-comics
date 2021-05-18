@@ -1,0 +1,32 @@
+footer {
+    color: white;
+    background-image: url('/storage/assets/footer-bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+
+    div[class*="column"] {
+        margin-right: 15px;
+        
+        h2 {
+            margin: 25px 0 15px;
+            font-size: 18px;
+            text-transform: uppercase;
+        }
+    
+        ul li {
+            opacity: 0.5;
+            margin-bottom: 5px;
+            font-size: 14px;
+        }
+    }
+
+    .big_dc {
+        height: 500px;
+        width: 500px;
+        right: 0;
+        top: -40px;
+    //     background-image: url('/storage/assets/dc-logo-bg.png');
+     }
+
+}
