@@ -23,5 +23,65 @@ main {
             color: white;
             background-color: $dcColor;
         }
+
+        .card_container {
+            .card {
+                margin: 40px 15px 20px;
+                width: 16%;
+                color: white;
+
+                .thumb {
+                    margin-bottom: 10px;
+                    height: 140px;
+                    width: 100%;
+                    overflow: hidden;
+
+                    img {
+                        height: auto;
+                        width: 100%;
+                    }
+                }
+
+                p {
+                    text-transform: uppercase;
+                }
+            }
+        }
+
+        .more {
+            height: 70px;
+            width: 100%;
+
+            .btn {
+                padding: 10px 45px;
+                color: white;
+                background-color: $dcColor;
+                text-transform: uppercase;
+                border: none;
+            }
+        }
+    }
+
+    #big_stripe {
+        color: white;
+        background-color: $dcColor;
+
+        .container {
+            height: 120px;
+
+            ul {
+                width: 100%;
+    
+                li img {
+                    margin-right: 15px;
+                    height: 50px;
+                }
+
+                li:last-of-type img {
+                    height: 35px;
+                }
+            }
+        }
+
     }
 }

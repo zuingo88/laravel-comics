@@ -137,6 +137,63 @@ main #cards h2 {
   background-color: #0c7cec;
 }
 
+main #cards .card_container .card {
+  margin: 40px 15px 20px;
+  width: 16%;
+  color: white;
+}
+
+main #cards .card_container .card .thumb {
+  margin-bottom: 10px;
+  height: 140px;
+  width: 100%;
+  overflow: hidden;
+}
+
+main #cards .card_container .card .thumb img {
+  height: auto;
+  width: 100%;
+}
+
+main #cards .card_container .card p {
+  text-transform: uppercase;
+}
+
+main #cards .more {
+  height: 70px;
+  width: 100%;
+}
+
+main #cards .more .btn {
+  padding: 10px 45px;
+  color: white;
+  background-color: #0c7cec;
+  text-transform: uppercase;
+  border: none;
+}
+
+main #big_stripe {
+  color: white;
+  background-color: #0c7cec;
+}
+
+main #big_stripe .container {
+  height: 120px;
+}
+
+main #big_stripe .container ul {
+  width: 100%;
+}
+
+main #big_stripe .container ul li img {
+  margin-right: 15px;
+  height: 50px;
+}
+
+main #big_stripe .container ul li:last-of-type img {
+  height: 35px;
+}
+
 * {
   margin: 0;
   padding: 0;
