@@ -137,9 +137,13 @@ main #cards h2 {
   background-color: #0c7cec;
 }
 
+main #cards .card_container a {
+  width: 16%;
+}
+
 main #cards .card_container .card {
   margin: 40px 0 10px;
-  width: 16%;
+  width: 100%;
   color: white;
 }
 
@@ -156,6 +160,8 @@ main #cards .card_container .card .thumb img {
 }
 
 main #cards .card_container .card p {
+  padding: 0 5px;
+  font-size: 14px;
   text-transform: uppercase;
 }
 

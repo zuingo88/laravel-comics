@@ -13,13 +13,17 @@
 
                 <div class="card_container flex_wrap space_bet">
 
+                    {{-- comic card --}}
                     @foreach ($data as $item)
-                        <div class="card flex_col">
-                            <div class="thumb">
-                                <img src="{{ $item['thumb'] }}" alt="">
+
+                        <a href="{{ route('comic', $loop->index) }}">
+                            <div class="card flex_col">
+                                <div class="thumb">
+                                    <img src="{{ $item['thumb'] }}" alt="">
+                                </div>
+                                <p>{{ $item['series'] }}</p>
                             </div>
-                            <p>{{ $item['series'] }}</p>
-                        </div>
+                        </a>
                     @endforeach
 
                 </div>

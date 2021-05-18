@@ -25,9 +25,14 @@ main {
         }
 
         .card_container {
+
+            a {
+                width: 16%;
+            }
+
             .card {
                 margin: 40px 0 10px;
-                width: 16%;
+                width: 100%;
                 color: white;
 
                 .thumb {
@@ -43,6 +48,8 @@ main {
                 }
 
                 p {
+                    padding: 0 5px;
+                    font-size: 14px;
                     text-transform: uppercase;
                 }
             }
