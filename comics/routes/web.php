@@ -17,6 +17,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('home', 'controllerComics@home');
+Route::get('home', 'controllerComics@home')->name('home');
 
-Route::get('/comic/{index}', 'controllerComics@comic') -> name('comic');
+Route::get('/comic/{index}', 'controllerComics@comic')->name('comic');

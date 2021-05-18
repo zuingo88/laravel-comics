@@ -1,0 +1,134 @@
+#comic {
+    .container {
+        width: 60%;
+        margin: auto;
+    }
+
+    .blue_head {
+        height: 60px;
+        width: 100%;
+        background-color: $dcColor;
+
+        .container {
+            height: 100%;
+        }
+
+        .comic_thumb {
+            left: 0;
+            bottom: 10px;
+
+            img {
+                width: 150px;
+            }
+        }
+    }
+
+    #comic_features {
+        margin-top: 50px;
+        margin-bottom: 50px;
+
+        .left {
+            width: 65%;
+            margin-right: 20px;
+
+            h1 {
+                font-size: 22px;
+                text-transform: uppercase;
+            }
+
+            .green_bar {
+                width: 100%;
+                font-size: 13px;
+                color: white;
+                background-color: #00ae21;
+                border-bottom: 1px solid black;
+
+                .usprice {
+                    padding: 15px 20px;
+                    width: 70%;
+                    border-right: solid 1px black;
+
+                    p {
+                        opacity: 0.6;
+                    }
+                    span {
+                        opacity: 1;
+                    }
+                }
+
+                .check {
+                    padding: 15px 20px;
+                    cursor: pointer;
+                }
+            }
+
+            .description {
+                margin-top: 5px;
+                font-size: 13px;
+                color: #3e3e3e;
+
+                p {
+                    letter-spacing: 1px;
+                    line-height: 20px;
+                }
+            }
+        }
+
+        .right {
+            width: 30%;
+
+            h3 {
+                font-size: 16px;
+                text-transform: uppercase;
+                text-align: end;
+            }
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+
+    #specs {
+        padding: 20px 0 40px;
+        width: 100%;
+        background-color: #dedede;
+        border-top: 1px solid #a3a3a3;
+
+        .left,
+        .right {
+            width: 50%;
+
+            h2 {
+                font-size: 18px;
+            }
+
+            h4 {
+                font-size: 14px;
+            }
+
+            ul {
+                width: 100%;
+
+                li {
+                    margin: 15px;
+                    border-bottom: solid 1px grey;
+
+                    .spec_li {
+                        width: 100%;
+
+                        .titles {
+                            width: 30%;
+                        }
+
+                        .cont {
+                            width: 70%;
+                            font-size: 14px;
+                            color: $dcColor;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

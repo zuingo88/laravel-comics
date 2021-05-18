@@ -9,7 +9,9 @@
     <nav>
         <div class="container flex space_bet align_cen">
             <div class="logo">
-                <img src="{{ asset('/storage/assets/dc-logo.png') }}" alt="">
+                <a href="{{ route('home') }}">
+                    <img src="{{ asset('/storage/assets/dc-logo.png') }}" alt="">
+                </a>
             </div>
 
             <ul class="flex">
@@ -52,4 +54,8 @@
 
         </div>
     </nav>
+
+    <div class="jumbotron">
+        <img src="{{ asset('/storage/assets/jumbotron.jpg') }}" alt="">
+    </div>
 </header>

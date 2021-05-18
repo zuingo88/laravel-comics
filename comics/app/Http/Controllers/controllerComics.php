@@ -231,10 +231,11 @@ class controllerComics extends Controller
         $sites = ["DC", "MAD Megazine", "DC Kids", "DC Universe", "DC Power Visa"];
 
 
-        return view('pages.home', compact('data','dc_comics', 'shop', 'dc', 'sites'));
+        return view('pages.home', compact('data', 'dc_comics', 'shop', 'dc', 'sites'));
     }
 
-    public function comic($index) {
+    public function comic($index)
+    {
 
         $data = [
             [
@@ -460,6 +461,6 @@ class controllerComics extends Controller
 
         $sites = ["DC", "MAD Megazine", "DC Kids", "DC Universe", "DC Power Visa"];
 
-        return view('pages.comic', compact('comic','data', 'dc_comics', 'shop', 'dc', 'sites'));
+        return view('pages.comic', compact('comic', 'data', 'dc_comics', 'shop', 'dc', 'sites'));
     }
 }

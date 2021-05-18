@@ -111,13 +111,13 @@ header nav .container .search input:focus {
   outline: none;
 }
 
-main .jumbotron {
+header .jumbotron {
   height: 300px;
   width: 100%;
   overflow: hidden;
 }
 
-main .jumbotron img {
+header .jumbotron img {
   height: 700px;
   width: 100%;
 }
@@ -200,7 +200,149 @@ main #big_stripe .container ul li:last-of-type img {
   height: 35px;
 }
 
+#comic .container {
+  width: 60%;
+  margin: auto;
+}
+
+#comic .blue_head {
+  height: 60px;
+  width: 100%;
+  background-color: #0c7cec;
+}
+
+#comic .blue_head .container {
+  height: 100%;
+}
+
+#comic .blue_head .comic_thumb {
+  left: 0;
+  bottom: 10px;
+}
+
+#comic .blue_head .comic_thumb img {
+  width: 150px;
+}
+
+#comic #comic_features {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#comic #comic_features .left {
+  width: 65%;
+  margin-right: 20px;
+}
+
+#comic #comic_features .left h1 {
+  font-size: 22px;
+  text-transform: uppercase;
+}
+
+#comic #comic_features .left .green_bar {
+  width: 100%;
+  font-size: 13px;
+  color: white;
+  background-color: #00ae21;
+  border-bottom: 1px solid black;
+}
+
+#comic #comic_features .left .green_bar .usprice {
+  padding: 15px 20px;
+  width: 70%;
+  border-right: solid 1px black;
+}
+
+#comic #comic_features .left .green_bar .usprice p {
+  opacity: 0.6;
+}
+
+#comic #comic_features .left .green_bar .usprice span {
+  opacity: 1;
+}
+
+#comic #comic_features .left .green_bar .check {
+  padding: 15px 20px;
+  cursor: pointer;
+}
+
+#comic #comic_features .left .description {
+  margin-top: 5px;
+  font-size: 13px;
+  color: #3e3e3e;
+}
+
+#comic #comic_features .left .description p {
+  letter-spacing: 1px;
+  line-height: 20px;
+}
+
+#comic #comic_features .right {
+  width: 30%;
+}
+
+#comic #comic_features .right h3 {
+  font-size: 16px;
+  text-transform: uppercase;
+  text-align: end;
+}
+
+#comic #comic_features .right img {
+  width: 100%;
+}
+
+#comic #specs {
+  padding: 20px 0 40px;
+  width: 100%;
+  background-color: #dedede;
+  border-top: 1px solid #a3a3a3;
+}
+
+#comic #specs .left,
+#comic #specs .right {
+  width: 50%;
+}
+
+#comic #specs .left h2,
+#comic #specs .right h2 {
+  font-size: 18px;
+}
+
+#comic #specs .left h4,
+#comic #specs .right h4 {
+  font-size: 14px;
+}
+
+#comic #specs .left ul,
+#comic #specs .right ul {
+  width: 100%;
+}
+
+#comic #specs .left ul li,
+#comic #specs .right ul li {
+  margin: 15px;
+  border-bottom: solid 1px grey;
+}
+
+#comic #specs .left ul li .spec_li,
+#comic #specs .right ul li .spec_li {
+  width: 100%;
+}
+
+#comic #specs .left ul li .spec_li .titles,
+#comic #specs .right ul li .spec_li .titles {
+  width: 30%;
+}
+
+#comic #specs .left ul li .spec_li .cont,
+#comic #specs .right ul li .spec_li .cont {
+  width: 70%;
+  font-size: 14px;
+  color: #0c7cec;
+}
+
 footer {
+  padding-bottom: 30px;
   color: white;
   background-image: url("/storage/assets/footer-bg.jpg");
   background-size: cover;

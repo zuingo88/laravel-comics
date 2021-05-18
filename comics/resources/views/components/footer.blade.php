@@ -29,7 +29,7 @@
                     @foreach ($sites as $item)
                         <li>{{ $item }}</li>
                     @endforeach
-                </ul> 
+                </ul>
             </div>
         </div>
 

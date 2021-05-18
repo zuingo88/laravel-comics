@@ -2,9 +2,6 @@
 @section('content')
 
     <main>
-        <div class="jumbotron">
-            <img src="{{ asset('/storage/assets/jumbotron.jpg') }}" alt="">
-        </div>
 
         <section id="cards">
 
@@ -15,7 +12,6 @@
 
                     {{-- comic card --}}
                     @foreach ($data as $item)
-
                         <a href="{{ route('comic', $loop->index) }}">
                             <div class="card flex_col">
                                 <div class="thumb">

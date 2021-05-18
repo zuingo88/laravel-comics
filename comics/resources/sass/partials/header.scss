@@ -14,7 +14,7 @@ header {
                 font-size: 10px;
             }
         }
-    }//fine blue_stripe
+    } //fine blue_stripe
 
     nav {
         width: 100%;
@@ -25,9 +25,10 @@ header {
             .logo {
                 height: 70px;
                 width: 70px;
+
                 img {
-                   height: 100%;
-                   width: 100%;
+                    height: 100%;
+                    width: 100%;
                 }
             }
 
@@ -40,7 +41,7 @@ header {
 
                 &:hover {
                     color: $dcColor;
-                    border-bottom: solid 3px $dcColor;                    
+                    border-bottom: solid 3px $dcColor;
                 }
             }
 
@@ -51,14 +52,23 @@ header {
                     width: 100px;
                     padding-left: 40px;
                     border: none;
-                    
-    
+
                     &:focus {
                         outline: none;
                     }
                 }
             }
+        }
+    }
 
+    .jumbotron {
+        height: 300px;
+        width: 100%;
+        overflow: hidden;
+
+        img {
+            height: 700px;
+            width: 100%;
         }
     }
 }
